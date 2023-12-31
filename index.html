@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Mi Página</title>
+
+    <!--
     <script type="text/javascript">
         var paginas = ["https://brunoandradebr.github.io/nzxt/", "https://haselkern.com/", "https://strawpoll.com/"];
         var indice = 0;
@@ -11,10 +14,26 @@
         }
         setInterval(cambiarPagina, 1000);
     </script>
+    -->
 </head>
+
 <body>
     <h1>Bienvenido a mi página</h1>
+    <!--
+
     <p>El contenido de esta página cambiará en 5 segundos.</p>
-    <iframe id="miIframe" src="https://brunoandradebr.github.io/nzxt/" width="100%" height="500"></iframe>
+    <iframe id="miIframe" src="https://brunoandradebr.github.io/nzxt/" width="100%" height="500"></iframe>-->
+
+
+    <h1>Monitor de Hardware</h1>
+    <p id="cpuTemp">Temperatura CPU: Cargando...</p>
+    <p id="gpuTemp">Temperatura GPU: Cargando...</p>
+    <p id="cpuLoad">Uso CPU: Cargando...</p>
+    <p id="gpuLoad">Uso GPU: Cargando...</p>
+
+    <script src="monitor.js"></script>
+
+
 </body>
+
 </html>
